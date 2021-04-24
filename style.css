@@ -1,12 +1,32 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* element selectors */    
 body {
-    background-color: skyblue;
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    
 }
 
-header {
-    border: 10px solid darkblue;
-    background-color: lightblue;
+header, footer {
+    background-color: slategray;
     height: 50px;
+    width: 100%;
+    line-height: 50px;
   }
+
+header {
+    border-bottom: 5px solid rgb(20, 20, 20) ;
+}
+
+footer {
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    border-bottom: 5px solid steelblue;
+}
 
 nav a {
     float: right;
@@ -18,41 +38,28 @@ nav a {
 }
 
 nav a:hover {
-    background-color: darkblue;
-    color: white;
+    background-color: rgb(16, 16, 17);
+    color: skyblue;
 }
+
+/* class selectors */
 
 .box-name {
+    margin-top: 40px;
     text-align: center;
-    margin: auto;
 }
 
+.text-center {
+    text-align: center;
+    color: skyblue;
+}
 
+.contact-me {
+    
+}
 
-form{
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
-}
-.form-control{
-    width:600px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    color: white;
-    font-size: 18px;
-    margin-bottom: 16px;
-}
-input{
-    height: 45px;
-}
-form.submit{
-    background: brown;
-    border-color: white;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
+/* id selectors */
+
+#coming-soon {
+    margin-top: 25px;
 }

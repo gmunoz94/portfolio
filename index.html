@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
         <link rel="stylesheet" href="./style.css">
+        <style>
+            body {
+                background-image: url(./pexels-adrien-olichon-2387793.jpg);
+                background-size: 100%;
+            }
+        </style>
     </head>
     <body>
         <header>
             <nav>
-                <a href="#">GitHub</a>
+                <a href="https://github.com/gmunoz94" target="_blank">GitHub</a>
                 <a href="#">Portfolio</a>
                 <a href="#">Contact Info</a>
             </nav>
         </header>
 
-        <section class="box-name">
-            <h2>My New Website</h2>
-            <p>Coming Soon</p>
+        <section class="box-name text-center">
+            <h2>Gerardo Munoz</h2>
+                <section id="coming-soon">
+                    <p>Coming Soon</p>
+                </section>
         </section>
 
-        <section class="contact-form">
-            <form id="contact-form" method="post" action="">
-                <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-                <form id="contact-form" method="post" action="">
-                <input name="email" type="text" class="form-control" placeholder="Your Email" required><br>
-                <Textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea><br>
-                <input name="submit button" class="form-control submit" value="SEND MESSAGE">
-            </form>
-        </section>
+        <form class="contact-me text-center">
+            <label for="name">Full Name: </label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email"><br>
+            <button>Submit</button>
+        </form>
 
-        <footer>
-
+        <footer class="text-center">
+            Gerardo Munoz | <a href="mailto: g.munozii@icloud.com">g.munozii@icloud.com</a> | <a href="tel: 5129861629">512-986-1629</a>
         </footer>
     </body>
 </html>
