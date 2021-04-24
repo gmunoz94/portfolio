@@ -39,12 +39,12 @@ form{
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
-    color; white;
+    color: white;
     font-size: 18px;
     margin-bottom: 16px;
 }
 input{
-    height 45px;
+    height: 45px;
 }
 form.submit{
     background: brown;
@@ -52,7 +52,7 @@ form.submit{
     color: black;
     font-size: 20px;
     font-weight: bold;
-    letterspacing: 2px;
+    letter-spacing: 2px;
     height: 50px;
-    margin-top 20px;
+    margin-top: 20px;
 }
