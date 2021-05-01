@@ -59,6 +59,27 @@ input[type=text]:focus {
     text-align: center;
 }
 
+.portfolio {
+    position: relative;
+}
+
+.portfolio article {
+    display: inline-block;
+    margin: 1%;
+    height: 200px;
+    width: 300px;
+}
+
+.portfolio p {
+    position: absolute;
+    bottom: 2px;
+    width: 300px;
+    background-color: slategray;
+    opacity: 50%;
+    line-height: 20px;
+    padding: 10px;
+}
+
 .contact-me {
     box-sizing: border-box;
     position: fixed;
