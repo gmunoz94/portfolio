@@ -88,6 +88,7 @@ input[type=text]:focus {
 
 .portfolio {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -167,5 +168,18 @@ input[type=text]:focus {
         display: flex;
         flex-direction: column;
         height: fit-content;
+    }
+
+    #project-1 img {
+        width: 300px;
+        height: auto;
+    }
+
+    #project-1 p {
+        width: 300px;
+    }
+
+    #headshot {
+    height: 250px;
     }
 }
