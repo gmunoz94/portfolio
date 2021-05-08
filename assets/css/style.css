@@ -58,13 +58,6 @@ nav a {
     border-left: solid black 5px;
 }
 
-.navHam {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-}
-
 nav a:hover {
     background-color: rgb(16, 16, 17);
     color: white;
