@@ -12,7 +12,9 @@ html {
 }
 
 body {
-    background-color: rgb(20, 20, 20);  
+        background-image: url(../images/02.jpg);
+    background-size: inherit;
+    background-repeat: no-repeat;  
 }
 
 
@@ -56,6 +58,13 @@ nav a {
     border-left: solid black 5px;
 }
 
+.navHam {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
 nav a:hover {
     background-color: rgb(16, 16, 17);
     color: white;
@@ -94,7 +103,7 @@ input[type=text]:focus {
 .card {
     display: flex;
     flex: 1 0 48%;
-    margin: 1%;
+    margin: 2% 1%;
     justify-content: center;
     position: relative;
 }
@@ -113,7 +122,7 @@ input[type=text]:focus {
 }
 
 .contact-me {
-    margin: 3% 0 0 0;
+    margin: 2% 0 0 0;
 }
 
 .contact-me h3 {
@@ -136,7 +145,7 @@ input[type=text]:focus {
 }
 
 .endSlash {
-    margin: 3% 0
+    margin: 2% 0
 }
 
 .flex-row {
@@ -151,8 +160,8 @@ input[type=text]:focus {
 
 /* id selectors */
 
-#coming-soon {
-    margin: 40px 0;
+#headImg {
+    margin: 2% 0;
 }
 
 #project-1 {
@@ -181,5 +190,21 @@ input[type=text]:focus {
 
     #headshot {
     height: 250px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    body {
+        background-image: url(../images/02.jpg);
+        background-size: inherit;
+        background-repeat: no-repeat;  
+    }
+}
+
+@media screen and (max-width: 600px){
+    h2 {
+        font-size: 25px;
     }
 }
