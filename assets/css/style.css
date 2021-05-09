@@ -12,7 +12,7 @@ html {
 }
 
 body {
-        background-image: url(../images/02.jpg);
+    background-image: url(../images/02.jpg);
     background-size: inherit;
     background-repeat: no-repeat;  
 }
@@ -173,30 +173,16 @@ input[type=text]:focus {
     width: 701.48px;
 }
 
-@media screen and (max-width: 900px) {
-    nav a {
-        display: none;
-    }
-
-    .icon {
-        display: initial;
-    }
-
-    .icon::after {
-        nav a {
-            display: flex;
-            flex-direction: column;
-            height: fit-content;
-        }
-    }
-}
-
 @media screen and (max-width: 768px) {
-
-
     #project-1 img {
         width: 300px;
         height: auto;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
     }
 
     #project-1 p {
@@ -208,7 +194,8 @@ input[type=text]:focus {
     }
 
     h2 {
-        font-size: 30px;
+        overflow: scroll;
+        font-size: 25px;
     }
 
     body {
@@ -220,6 +207,6 @@ input[type=text]:focus {
 
 @media screen and (max-width: 600px){
     h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
