@@ -13,10 +13,13 @@ html {
 
 body {
     background-image: url(../images/02.jpg);
-    background-size: inherit;
+    background-size: cover;
     background-repeat: no-repeat;  
 }
 
+section {
+    margin-bottom: 2%;
+}
 
 header nav {
     position: relative;
@@ -111,7 +114,7 @@ input[type=text]:focus {
 
 .portfolio p {
     position: absolute;
-    width: 300px;
+    width: 200px;
     background-color: slategray;
     line-height: 20px;
     padding: 10px;
@@ -169,10 +172,6 @@ input[type=text]:focus {
     flex: 1 0 98%;
 }
 
-#project-1 p {
-    width: 701.48px;
-}
-
 @media screen and (max-width: 768px) {
     #project-1 img {
         width: 300px;
@@ -200,7 +199,7 @@ input[type=text]:focus {
 
     body {
         background-image: url(../images/02.jpg);
-        background-size: inherit;
+        background-size: cover;
         background-repeat: no-repeat;  
     }
 }
@@ -208,5 +207,11 @@ input[type=text]:focus {
 @media screen and (max-width: 600px){
     h2 {
         font-size: 30px;
+    }
+
+    body {
+        background-image: url(../images/02.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;  
     }
 }
